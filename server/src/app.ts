@@ -21,6 +21,10 @@ app.use(express.json());
 // Cookie Parser
 app.use(cookieParser());
 
+// Routes
+import api from "./routes/api";
+app.use("/api", api);
+
 // Define Port
 const port:string|number = process.env.PORT || 3000;
 
