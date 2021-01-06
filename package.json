@@ -14,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/tommyshelby9121/SynicDash/issues"
   },
-  "homepage": "https://github.com/tommyshelby9121/SynicDash#readme"
+  "homepage": "https://github.com/tommyshelby9121/SynicDash#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  }
 }
