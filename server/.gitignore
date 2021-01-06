@@ -1,0 +1,8 @@
+# NPM
+node_modules
+
+# Env
+.env
+
+# Production Output
+dist
