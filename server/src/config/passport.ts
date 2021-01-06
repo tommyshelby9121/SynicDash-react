@@ -9,7 +9,7 @@ module.exports = (passport:any) => {
         clientID: process.env.DISCORD_OAUTH_CLIENT_ID!,
         clientSecret: process.env.DISCORD_OAUTH_CLIENT_SECRET!,
         callbackURL: process.env.DISCORD_OAUTH_CALLBACK_URL,
-        scope: ['identify', 'guilds'],
+        scope: ['identify', 'guilds']
     }, async (accessToken:string, refreshToken:string, profile:Profile, done:any) => {
         const { id, username, discriminator, avatar, guilds } = profile;
         try {
@@ -39,7 +39,7 @@ module.exports = (passport:any) => {
         }
         catch (err) {
             console.error(err);
-            done(err, null);
+            return done(err, null);
         }
     }));
 
