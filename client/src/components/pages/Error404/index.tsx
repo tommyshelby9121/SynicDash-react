@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 export function Error404() {
     return (
-        <div className="error404">
+        <div style={{ marginTop: "25vh" }}>
             <Container>
                 <Row>
                     <div className="col-sm-4" >
