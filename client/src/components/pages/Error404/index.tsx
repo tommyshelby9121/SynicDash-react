@@ -9,7 +9,7 @@ export function Error404() {
                     <div className="col-sm-4" >
                         <h1>404 Not Found!</h1>
                         <p>We could not find the document that you requested.</p>
-                        <a href="/" className="btn btn-primary mt-5">Return Home</a>
+                        <a href="/" className="btn btn-outline-primary btn-bg mt-5">Return Home</a>
                     </div>
                     <div className="col-sm-8">
                         <svg width="792" height="426" viewBox="0 0 792 426" fill="none" xmlns="http://www.w3.org/2000/svg">
