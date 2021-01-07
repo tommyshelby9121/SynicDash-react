@@ -1,0 +1,21 @@
+.btn {
+  &.btn-primary {
+    background-color: #FF7F50;
+    border-color: #FF7F50;
+    color: #f4f4f4;
+    transition: .75s cubic-bezier(.785, .135, .15, .86);
+  }
+
+  &.btn-outline-primary {
+    background-color: transparent;
+    border-color: #FF7F50;
+    color: #FF7F50;
+    transition: .75s cubic-bezier(.785, .135, .15, .86);
+
+    &:hover {
+      background-color: #FF7F50;
+      border-color: #FF7F50;
+      color: #f4f4f4;
+    }
+  }
+}
